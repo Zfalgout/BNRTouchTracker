@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7655DFDF1ECB17A1002730CC /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7655DFDE1ECB17A1002730CC /* DrawView.swift */; };
 		76F1F6301ECB1513005B4754 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1F62F1ECB1513005B4754 /* AppDelegate.swift */; };
-		76F1F6321ECB1513005B4754 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1F6311ECB1513005B4754 /* ViewController.swift */; };
 		76F1F6351ECB1513005B4754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F1F6331ECB1513005B4754 /* Main.storyboard */; };
 		76F1F6371ECB1514005B4754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F1F6361ECB1514005B4754 /* Assets.xcassets */; };
 		76F1F63A1ECB1514005B4754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F1F6381ECB1514005B4754 /* LaunchScreen.storyboard */; };
 		76F1F6451ECB1514005B4754 /* TouchTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1F6441ECB1514005B4754 /* TouchTrackerTests.swift */; };
 		76F1F6501ECB1514005B4754 /* TouchTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1F64F1ECB1514005B4754 /* TouchTrackerUITests.swift */; };
+		76F1F65E1ECB15A9005B4754 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F1F65D1ECB15A9005B4754 /* Line.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7655DFDE1ECB17A1002730CC /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawView.swift; path = ../DrawView.swift; sourceTree = "<group>"; };
 		76F1F62C1ECB1513005B4754 /* TouchTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F1F62F1ECB1513005B4754 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		76F1F6311ECB1513005B4754 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		76F1F6341ECB1513005B4754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76F1F6361ECB1514005B4754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76F1F6391ECB1514005B4754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		76F1F64B1ECB1514005B4754 /* TouchTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F1F64F1ECB1514005B4754 /* TouchTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchTrackerUITests.swift; sourceTree = "<group>"; };
 		76F1F6511ECB1514005B4754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F1F65D1ECB15A9005B4754 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,9 @@
 		76F1F62E1ECB1513005B4754 /* TouchTracker */ = {
 			isa = PBXGroup;
 			children = (
+				7655DFDE1ECB17A1002730CC /* DrawView.swift */,
 				76F1F62F1ECB1513005B4754 /* AppDelegate.swift */,
-				76F1F6311ECB1513005B4754 /* ViewController.swift */,
+				76F1F65D1ECB15A9005B4754 /* Line.swift */,
 				76F1F6331ECB1513005B4754 /* Main.storyboard */,
 				76F1F6361ECB1514005B4754 /* Assets.xcassets */,
 				76F1F6381ECB1514005B4754 /* LaunchScreen.storyboard */,
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76F1F6321ECB1513005B4754 /* ViewController.swift in Sources */,
+				76F1F65E1ECB15A9005B4754 /* Line.swift in Sources */,
 				76F1F6301ECB1513005B4754 /* AppDelegate.swift in Sources */,
+				7655DFDF1ECB17A1002730CC /* DrawView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +511,7 @@
 				76F1F6561ECB1514005B4754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76F1F6571ECB1514005B4754 /* Build configuration list for PBXNativeTarget "TouchTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				76F1F6591ECB1514005B4754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76F1F65A1ECB1514005B4754 /* Build configuration list for PBXNativeTarget "TouchTrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				76F1F65C1ECB1514005B4754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
